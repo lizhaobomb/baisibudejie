@@ -47,7 +47,9 @@ def main():
     args = parse_args()
 
     if args.plist_path is None:
-        plist_file_name = '%s-Info.plist' % args.scheme
+#        plist_file_name = '%s-Info.plist' % args.scheme
+        plist_file_name = 'info.plist'
+
         args.plist_path = os.path.abspath(
             os.path.join(os.path.dirname(__file__),
                          os.path.pardir,

@@ -23,7 +23,7 @@ class iOSBuilder(object):
     def _prepare(self):
         """ get prepared for building.
         """
-        self._change_build_version()
+        # self._change_build_version()
 
         print("Output folder for ipa ============== {}".format(self._output_folder))
         try:

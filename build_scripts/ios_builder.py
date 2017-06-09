@@ -3,7 +3,7 @@ from __future__ import print_function
 import os
 import subprocess
 import shutil
-from plistlib import plistlib
+import plistlib
 
 class iOSBuilder(object):
     """docstring for iOSBuilder"""
